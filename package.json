@@ -1,0 +1,26 @@
+{
+  "name": "mdx2-x-remark-gfm-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "mdx2-x-remark-gfm-ts",
+  "author": "Florian Kissling",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^2.1.2",
+    "@mdx-js/react": "^2.1.2",
+    "gatsby": "^4.19.1",
+    "gatsby-plugin-mdx": "^3.19.0",
+    "gatsby-source-filesystem": "^4.19.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
