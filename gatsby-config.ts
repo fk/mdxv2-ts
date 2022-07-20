@@ -8,8 +8,10 @@ const config: GatsbyConfig = {
   plugins: [
     {
       resolve: "gatsby-plugin-mdx",
-      mdxOptions: {
-        remarkPlugins: [remarkGfm],
+      options: {
+        mdxOptions: {
+          remarkPlugins: [remarkGfm],
+        },
       },
     },
     {
