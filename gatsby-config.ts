@@ -1,5 +1,5 @@
 import type { GatsbyConfig } from "gatsby"
-import { remarkGfm } from "remark-gfm"
+import remarkGfm from "remark-gfm"
 
 const config: GatsbyConfig = {
   siteMetadata: {
